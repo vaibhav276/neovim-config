@@ -27,9 +27,12 @@ vim.cmd.colorscheme('gruvbox')
 vim.cmd('let g:airline_powerline_fonts = 1')
 vim.opt.grepprg = "rg --no-ignore --vimgrep --smart-case"
 vim.opt.grepformat = "%f:%l:%c:%m"
+vim.opt.tabstop = 2      -- Number of spaces that a <Tab> in the file counts for
+vim.opt.shiftwidth = 2   -- Number of spaces to use for each step of (auto)indent
+vim.opt.expandtab = true -- Use spaces instead of tabs
+vim.opt.softtabstop = 2  -- Number of spaces that a <Tab> counts for while performing editing operations
 
 -- Complex plugin configs
 require "vimtree"
-vim.cmd(':NvimTreeOpen')
 
 require "keymap"

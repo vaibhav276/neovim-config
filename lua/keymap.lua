@@ -6,7 +6,6 @@ require("which-key").add({
   { "<leader>fr", "<cmd>Telescope oldfiles<cr>", desc = "Open Recent" },
   { "<leader>ft", "<cmd>NvimTreeToggle<cr>", desc = "Tree" },
 
-
   { "<leader>b", group = "Buffer" },
   { "<leader>bb", "<cmd>Telescope buffers<cr>", desc = "Find" },
   { "<leader>bs", "<cmd>tabnew<cr>", desc = "Scratch" },
