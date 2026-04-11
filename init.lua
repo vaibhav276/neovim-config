@@ -1,0 +1,31 @@
+local vim = vim
+local Plug = vim.fn['plug#']
+
+vim.call('plug#begin')
+ 
+Plug('tpope/vim-sensible')
+Plug('tpope/vim-fugitive')
+Plug('vim-airline/vim-airline')
+Plug('vim-airline/vim-airline-themes')
+Plug('ellisonleao/gruvbox.nvim')
+Plug('kyazdani42/nvim-tree.lua')
+Plug('kyazdani42/nvim-web-devicons')
+Plug('nvim-lua/plenary.nvim')
+Plug('nvim-telescope/telescope-fzf-native.nvim')
+Plug('nvim-telescope/telescope.nvim')
+
+vim.call('plug#end')
+
+-- home=os.getenv("HOME")
+-- package.path = home .. "/.config/nvim/?.lua;" .. package.path
+
+-- Common config
+vim.cmd('se nu')
+vim.cmd.colorscheme('gruvbox')
+vim.cmd('let g:airline_powerline_fonts = 1')
+vim.opt.grepprg = "rg --no-ignore --vimgrep --smart-case"
+vim.opt.grepformat = "%f:%l:%c:%m"
+
+-- Complex plugin configs
+require "vimtree"
+vim.cmd(':NvimTreeOpen')
