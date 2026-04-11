@@ -13,6 +13,8 @@ Plug('kyazdani42/nvim-web-devicons')
 Plug('nvim-lua/plenary.nvim')
 Plug('nvim-telescope/telescope-fzf-native.nvim')
 Plug('nvim-telescope/telescope.nvim')
+Plug('dpretet/vim-leader-mapper')
+Plug('folke/which-key.nvim')
 
 vim.call('plug#end')
 
@@ -29,3 +31,5 @@ vim.opt.grepformat = "%f:%l:%c:%m"
 -- Complex plugin configs
 require "vimtree"
 vim.cmd(':NvimTreeOpen')
+
+require "keymap"
