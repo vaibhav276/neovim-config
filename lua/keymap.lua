@@ -14,6 +14,7 @@ require("which-key").add({
   { "<leader>sg", "<cmd>Telescope live_grep<cr>", desc = "Grep" },
 
   { "<leader>g", group = "Git" },
+  { "<leader>gg", "<cmd>LazyGit<cr>", desc = "LazyGit" },
   { "<leader>gs", "<cmd>Telescope git_status<cr>", desc = "Status" },
   { "<leader>gc", "<cmd>Telescope git_commits<cr>", desc = "Commits" },
   { "<leader>gb", "<cmd>Telescope git_branches<cr>", desc = "Branches" },

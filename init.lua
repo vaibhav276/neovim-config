@@ -16,6 +16,7 @@ Plug('nvim-telescope/telescope.nvim')
 Plug('dpretet/vim-leader-mapper')
 Plug('folke/which-key.nvim')
 Plug('xiyaowong/transparent.nvim')
+Plug('kdheepak/lazygit.nvim')
 
 vim.call('plug#end')
 
