@@ -16,6 +16,7 @@ require("which-key").add({
   { "<leader>g", group = "Git" },
   { "<leader>gs", "<cmd>Telescope git_status<cr>", desc = "Status" },
   { "<leader>gc", "<cmd>Telescope git_commits<cr>", desc = "Commits" },
+  { "<leader>gb", "<cmd>Telescope git_branches<cr>", desc = "Branches" },
 
 })
 
