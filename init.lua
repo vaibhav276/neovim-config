@@ -15,6 +15,7 @@ Plug('nvim-telescope/telescope-fzf-native.nvim')
 Plug('nvim-telescope/telescope.nvim')
 Plug('dpretet/vim-leader-mapper')
 Plug('folke/which-key.nvim')
+Plug('xiyaowong/transparent.nvim')
 
 vim.call('plug#end')
 
