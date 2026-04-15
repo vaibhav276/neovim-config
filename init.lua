@@ -17,6 +17,7 @@ Plug('dpretet/vim-leader-mapper')
 Plug('folke/which-key.nvim')
 Plug('xiyaowong/transparent.nvim')
 Plug('kdheepak/lazygit.nvim')
+Plug('github/copilot.vim')
 
 vim.call('plug#end')
 
