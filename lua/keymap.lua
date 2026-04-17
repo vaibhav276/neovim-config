@@ -21,7 +21,8 @@ require("which-key").add({
   { "<leader>gb", "<cmd>Telescope git_branches<cr>", desc = "Branches" },
 
   { "<leader>c", group = "Copilot" },
-  { "<leader>cc", "<cmd>CopilotChatToggle<cr>", desc = "Chat" },
+  { "<leader>cc", "<cmd>CopilotChatToggle<cr>", desc = "Toggle" },
+  { "<leader>cr", "<cmd>CopilotChatReset<cr>", desc = "Reset" },
 
 })
 
