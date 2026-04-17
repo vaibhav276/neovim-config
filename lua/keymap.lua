@@ -9,6 +9,7 @@ require("which-key").add({
   { "<leader>b", group = "Buffer" },
   { "<leader>bb", "<cmd>Telescope buffers<cr>", desc = "Find" },
   { "<leader>bs", "<cmd>tabnew<cr>", desc = "Scratch" },
+  { "<leader>bd", "<cmd>bd<cr>", desc = "Delete" },
 
   { "<leader>s", group = "Search" },
   { "<leader>sg", "<cmd>Telescope live_grep<cr>", desc = "Grep" },
