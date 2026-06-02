@@ -6,6 +6,9 @@ require("which-key").add({
   { "<leader>fr", "<cmd>Telescope oldfiles<cr>", desc = "Open Recent" },
   { "<leader>ft", "<cmd>NvimTreeToggle<cr>", desc = "Tree" },
   { "<leader>fl", "<cmd>NvimTreeFindFile<cr>", desc = "Locate" },
+  { "<leader>fyr", "<cmd>let @+ = expand('%')<cr>", desc = "Copy relative path" },
+  { "<leader>fya", "<cmd>let @+ = expand('%:p')<cr>", desc = "Copy absolute path" },
+  { "<leader>fyn", "<cmd>let @+ = expand('%:t')<cr>", desc = "Copy file name" },
 
   { "<leader>b", group = "Buffer" },
   { "<leader>bb", "<cmd>Telescope buffers<cr>", desc = "Find" },
