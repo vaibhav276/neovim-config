@@ -28,5 +28,8 @@ require("which-key").add({
   { "<leader>cc", "<cmd>CopilotChatToggle<cr>", desc = "Toggle" },
   { "<leader>cr", "<cmd>CopilotChatReset<cr>", desc = "Reset" },
 
+  { "<leader>x", group = "Extras" },
+  { "<leader>xz", "<cmd>ZenMode<cr>", desc = "ZenMode" },
+
 })
 

@@ -19,6 +19,7 @@ Plug('xiyaowong/transparent.nvim')
 Plug('kdheepak/lazygit.nvim')
 Plug('github/copilot.vim')
 Plug('CopilotC-Nvim/CopilotChat.nvim')
+Plug('folke/zen-mode.nvim')
 
 vim.call('plug#end')
 
