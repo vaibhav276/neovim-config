@@ -25,6 +25,7 @@ vim.call('plug#end')
 
 -- Common config
 vim.cmd('se nu')
+vim.opt.termguicolors = true
 vim.cmd.colorscheme('gruvbox')
 vim.cmd('let g:airline_powerline_fonts = 1')
 vim.opt.grepprg = "rg --no-ignore --vimgrep --smart-case"
@@ -39,5 +40,4 @@ require("CopilotChat").setup()
 
 -- Complex plugin configs
 require "vimtree"
-
 require "keymap"
