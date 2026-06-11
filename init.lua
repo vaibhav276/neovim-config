@@ -16,9 +16,11 @@ Plug('nvim-telescope/telescope.nvim')
 Plug('dpretet/vim-leader-mapper')
 Plug('folke/which-key.nvim')
 Plug('kdheepak/lazygit.nvim')
-Plug('github/copilot.vim')
-Plug('CopilotC-Nvim/CopilotChat.nvim')
 Plug('folke/zen-mode.nvim')
+
+-- Optional
+-- Plug('github/copilot.vim')
+-- Plug('CopilotC-Nvim/CopilotChat.nvim')
 
 vim.call('plug#end')
 
@@ -35,7 +37,7 @@ vim.opt.expandtab = true -- Use spaces instead of tabs
 vim.opt.softtabstop = 3  -- Number of spaces that a <Tab> counts for while performing editing operations
 
 -- Comment below line until CopliotC-Mvim/CopilotChat.nvim is installed
-require("CopilotChat").setup()
+-- require("CopilotChat").setup()
 
 -- Complex plugin configs
 require "vimtree"
