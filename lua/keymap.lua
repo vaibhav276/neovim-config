@@ -30,6 +30,9 @@ require("which-key").add({
 
   { "<leader>x", group = "Extras" },
   { "<leader>xz", "<cmd>ZenMode<cr>", desc = "ZenMode" },
+  { "<leader>xt", "<cmd>Telescope colorscheme enable_preview=true<cr>", desc = "Themes" },
+  { "<leader>xmd", "<cmd>set background=dark<cr>", desc = "Dark mode" },
+  { "<leader>xml", "<cmd>set background=light<cr>", desc = "Light mode" },
 
 })
 
