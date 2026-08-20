@@ -17,6 +17,7 @@ Plug('dpretet/vim-leader-mapper')
 Plug('folke/which-key.nvim')
 Plug('kdheepak/lazygit.nvim')
 Plug('folke/zen-mode.nvim')
+Plug('swaits/universal-clipboard.nvim')
 
 -- Optional
 -- Plug('github/copilot.vim')
@@ -34,7 +35,6 @@ vim.opt.tabstop = 3      -- Number of spaces that a <Tab> in the file counts for
 vim.opt.shiftwidth = 3   -- Number of spaces to use for each step of (auto)indent
 vim.opt.expandtab = true -- Use spaces instead of tabs
 vim.opt.softtabstop = 3  -- Number of spaces that a <Tab> counts for while performing editing operations
-vim.opt.clipboard = "unnamedplus"
 
 -- Comment below line until CopliotC-Mvim/CopilotChat.nvim is installed
 -- require("CopilotChat").setup()
