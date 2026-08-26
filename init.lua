@@ -18,6 +18,7 @@ Plug('folke/which-key.nvim')
 Plug('kdheepak/lazygit.nvim')
 Plug('folke/zen-mode.nvim')
 Plug('swaits/universal-clipboard.nvim')
+Plug('airblade/vim-gitgutter')
 
 -- Optional
 -- Plug('github/copilot.vim')
