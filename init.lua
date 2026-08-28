@@ -34,6 +34,18 @@ vim.opt.expandtab = true -- Use spaces instead of tabs
 vim.opt.softtabstop = 3  -- Number of spaces that a <Tab> counts for while performing editing operations
 vim.opt.clipboard = "unnamedplus"
 
+--- Custom commands
+vim.api.nvim_create_user_command('BufOnly', function()
+  local current_buf = vim.api.nvim_get_current_buf()
+  local buffers = vim.api.nvim_list_bufs()
+
+  for _, buf in ipairs(buffers) do
+    if buf ~= current_buf and vim.api.nvim_buf_is_valid(buf) and vim.bo[buf].buflisted then
+      vim.api.nvim_buf_delete(buf, { force = false })
+    end
+  end
+end, {})
+
 -- Complex plugin configs
 require "vimtree"
 require "keymap"

@@ -14,6 +14,7 @@ require("which-key").add({
   { "<leader>bb", "<cmd>Telescope buffers<cr>", desc = "Find" },
   { "<leader>bs", "<cmd>enew<cr>", desc = "Scratch" },
   { "<leader>bd", "<cmd>bd<cr>", desc = "Delete" },
+  { "<leader>bo", "<cmd>BufOnly<cr>", desc = "Delete Others" },
 
   { "<leader>s", group = "Search" },
   { "<leader>sg", "<cmd>Telescope live_grep<cr>", desc = "Grep" },
