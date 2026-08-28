@@ -20,10 +20,6 @@ Plug('folke/zen-mode.nvim')
 Plug('swaits/universal-clipboard.nvim')
 Plug('airblade/vim-gitgutter')
 
--- Optional
--- Plug('github/copilot.vim')
--- Plug('CopilotC-Nvim/CopilotChat.nvim')
-
 vim.call('plug#end')
 
 -- Common config
@@ -37,9 +33,6 @@ vim.opt.shiftwidth = 3   -- Number of spaces to use for each step of (auto)inden
 vim.opt.expandtab = true -- Use spaces instead of tabs
 vim.opt.softtabstop = 3  -- Number of spaces that a <Tab> counts for while performing editing operations
 vim.opt.clipboard = "unnamedplus"
-
--- Comment below line until CopliotC-Mvim/CopilotChat.nvim is installed
--- require("CopilotChat").setup()
 
 -- Complex plugin configs
 require "vimtree"
