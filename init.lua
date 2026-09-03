@@ -19,6 +19,8 @@ Plug('kdheepak/lazygit.nvim')
 Plug('folke/zen-mode.nvim')
 Plug('swaits/universal-clipboard.nvim')
 Plug('airblade/vim-gitgutter')
+Plug('tpope/vim-dadbod')
+Plug('kristijanhusak/vim-dadbod-ui')
 
 vim.call('plug#end')
 
