@@ -21,6 +21,7 @@ Plug('swaits/universal-clipboard.nvim')
 Plug('airblade/vim-gitgutter')
 Plug('tpope/vim-dadbod')
 Plug('kristijanhusak/vim-dadbod-ui')
+Plug('EdenEast/nightfox.nvim')
 
 vim.call('plug#end')
 
