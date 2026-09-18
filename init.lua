@@ -22,6 +22,7 @@ Plug('airblade/vim-gitgutter')
 Plug('tpope/vim-dadbod')
 Plug('kristijanhusak/vim-dadbod-ui')
 Plug('EdenEast/nightfox.nvim')
+Plug('effkay/argonaut.vim')
 
 vim.call('plug#end')
 
