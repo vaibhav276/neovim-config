@@ -5,8 +5,7 @@ vim.call('plug#begin')
  
 Plug('tpope/vim-sensible')
 Plug('tpope/vim-fugitive')
-Plug('vim-airline/vim-airline')
-Plug('vim-airline/vim-airline-themes')
+Plug('nvim-lualine/lualine.nvim')
 Plug('ellisonleao/gruvbox.nvim')
 Plug('kyazdani42/nvim-tree.lua')
 Plug('kyazdani42/nvim-web-devicons')
@@ -49,6 +48,13 @@ vim.api.nvim_create_user_command('BufOnly', function()
     end
   end
 end, {})
+
+
+require('lualine').setup {
+   options = {
+    theme = 'auto' -- Automatically adapts whenever you switch your :colorscheme
+  }
+}
 
 -- Complex plugin configs
 require "vimtree"
