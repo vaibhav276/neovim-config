@@ -22,6 +22,7 @@ Plug('tpope/vim-dadbod')
 Plug('kristijanhusak/vim-dadbod-ui')
 Plug('EdenEast/nightfox.nvim')
 Plug('effkay/argonaut.vim')
+Plug('sphamba/smear-cursor.nvim')
 
 vim.call('plug#end')
 
@@ -55,6 +56,8 @@ require('lualine').setup {
     theme = 'auto' -- Automatically adapts whenever you switch your :colorscheme
   }
 }
+
+require('smear_cursor').enabled = true
 
 -- Complex plugin configs
 require "vimtree"
