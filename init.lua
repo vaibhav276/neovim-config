@@ -23,6 +23,7 @@ Plug('kristijanhusak/vim-dadbod-ui')
 Plug('EdenEast/nightfox.nvim')
 Plug('effkay/argonaut.vim')
 Plug('sphamba/smear-cursor.nvim')
+Plug('NeogitOrg/neogit')
 
 vim.call('plug#end')
 
